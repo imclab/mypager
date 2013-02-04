@@ -1,0 +1,14 @@
+Source: mypager
+Section: devel
+Priority: optional
+Maintainer: Romuald Brunet <romuald@chivil.com>
+Build-Depends: debhelper (>= 8)
+Standards-Version: 3.9.2
+Vcs-Git: git://github.com/romuald/mypager.git
+Vcs-Browser: https://github.com/romuald/mypager
+
+Package: mypager
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends}, perl (>= 5.8.0), libterm-readkey-perl
+Description: mypager description
+ yet too do
